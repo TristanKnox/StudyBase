@@ -1,0 +1,412 @@
+
+
+/* log in form css elements*/
+#login 
+{ 
+	margin: 0; 
+	padding: 0; 
+	background: url(books.jpg); 
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+}  
+
+.loginBox 
+{
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	width: 350px; 
+	height: 420px; 
+	padding: 100px 70px;
+	box-sizing: border-box; 
+	background: rgba(0,0,0,.5); 
+	box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+	border-radius: 10px;
+}  
+
+.loginBox p 
+{
+	margin: 0; 
+	padding: 0; 
+	front-weight: bold; 
+	color: #fff; 
+	
+} 
+
+
+.loginBox input 
+{
+	width: 100%; 
+	margin-bottom: 20px;
+	
+}  
+
+/*password and username text boxes */ 
+
+.loginBox input[type="text"], 
+.loginBox input[type="password"] 
+{
+	border:none; 
+	border-bottom: 1px solid #fff; 
+	background: transparent; 
+	outline: none; 
+	height: 40px; 
+	color: #fff; 
+	
+}  
+.loginBox input[type="submit"] 
+{
+	border: none; 
+	outline: none;  
+	height: 40px; 
+	color: #fff; 
+	background: #ff267e;  
+	curser: pointer; 
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover 
+{
+	background: #efeD40;
+} 
+
+.loginBox a 
+{  
+	margin: 0; 
+	padding: 0;  
+	padding-bottom: 30px;
+	front-weight: bold; 
+	color: #fff; 
+}  
+
+.user 
+{
+	width: 100px; 
+	height: 100px; 
+	border-radius: 50%; 
+	overflow: hidden; 
+	position: absolute; 
+	top: calc(-100px/2); 
+	left: calc(50%-50px); 
+} 
+
+h2 
+{
+	margin: 0; 
+	padding: 0,0,40px;  
+	padding-bottom: 30px;
+	color: #efeD40;
+} 
+  
+/* create account css elements */
+#create 
+{
+	margin: 0; 
+	padding: 0; 
+	background: url(books.jpg); 
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+} 
+
+.create 
+{
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	width: 350px; 
+	height: 475px; 
+	padding: 100px 70px;
+	box-sizing: border-box; 
+	background: rgba(0,0,0,.5); 
+	box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+	border-radius: 10px;
+} 
+.create input[type="text"], 
+.create input[type="password"] 
+{
+	border:none; 
+	border-bottom: 1px solid #fff; 
+	background: transparent; 
+	outline: none; 
+	height: 20px; 
+	color: #fff; 
+	
+}  
+.create input[type="submit"] 
+{
+	border: none; 
+	outline: none;  
+	height: 40px; 
+	color: #fff; 
+	background: #ff267e;  
+	curser: pointer; 
+	border-radius: 20px;
+}  
+
+.create input 
+{
+	width: 100%; 
+	margin-bottom: 30px;
+	
+}   
+
+.create p 
+{
+	margin: 0; 
+	padding: 0; 
+	front-weight: bold; 
+	color: #fff; 
+	
+} 
+
+.create select 
+{
+	appearance: none; 
+	height: 40px; 
+	width: 100%; 
+	margin-bottom: 20px; 
+	margin-top: 20px;	
+	border-radius: 20px; 
+	padding: 10px 70px 10px 20px;
+}
+
+.createBox input[type="text"], 
+.createBox input[type="password"] 
+{
+	border:none; 
+	border-bottom: 1px solid #fff; 
+	background: transparent; 
+	outline: none; 
+	height: 40px; 
+	color: #fff; 
+	
+}  
+
+
+.create input[type="submit"]:hover 
+{
+	background: #efeD40;
+}  
+
+/* question form css elements */  
+ 
+#questionForm
+{
+	margin: 0; 
+	padding: 0; 
+	background: url(books.jpg); 
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+} 
+
+.question
+{
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	width: 900px; 
+	height: 750px; 
+	padding: 100px 70px;
+	box-sizing: border-box; 
+	background: rgba(0,0,0,.5); 
+	box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+	border-radius: 10px;
+}  
+
+.question select 
+{
+	appearance: none;  
+	height: 40px; 
+	width: 250px; 
+	margin-bottom: 20px; 
+	margin-top: 10px;	
+	border-radius: 20px; 
+	padding: 10px 70px 10px 20px;
+} 
+
+.question p 
+{
+	margin: 0; 
+	padding: 10; 
+	front-weight: bold; 
+	color: #fff; 
+	
+}  
+
+.question input[type="submit"] 
+{
+	border: none; 
+	outline: none;  
+	height: 40px; 
+	color: #fff; 
+	background: #ff267e;  
+	curser: pointer; 
+	border-radius: 20px;
+}  
+
+.question input 
+{
+	width: 250px; 
+	margin-bottom: 30px; 
+	margin-top: 20px;
+	
+} 
+
+.question textarea 
+{
+	border-radius: 20px;
+}    
+
+/* explaination form form css elements */   
+
+#explainationForm
+{
+	margin: 0; 
+	padding: 0; 
+	background: url(books.jpg); 
+	font-family: sans-serif; 
+	background-repeat: no-repeat;
+}  
+
+.explaination
+{
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	width: 900px; 
+	height: 500px; 
+	padding: 100px 70px;
+	box-sizing: border-box; 
+	background: rgba(0,0,0,.5); 
+	box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+	border-radius: 10px;
+}  
+
+ .explaination p 
+{
+	margin: 0; 
+	padding: 10; 
+	front-weight: bold; 
+	color: #fff; 
+}   
+
+/* main page css items */ 
+#mainPage 
+{
+	background:url(books.jpg) 0 270px; 
+	
+	padding: 0; 
+	margin: 0; 
+} 
+
+.container 
+{
+	width: 80%; 
+	margin: auto; 
+	overflow:hidden;
+} 
+header 
+{
+	background:#35424a; 
+	color:#ffffff; 
+	padding-top:30px; 
+	min-height: 70px; 
+	border-bottom:#ed2127 3px solid;
+}
+
+header ul
+{
+	margin: 0px; 
+	padding: 0px; 
+	list-style: none;
+} 
+
+header li 
+{ 
+	display: inline; 
+	padding: 0 15px 0 15px;
+}  
+
+header a 
+{
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-size: 16px; 
+	color:#ffffff;
+}
+
+
+
+header #branding 
+{
+	float: left;
+} 
+
+header #branding h1 
+{
+	margin:0;
+} 
+
+header nav 
+{
+	float:right; 
+	margin-top: 10px;
+} 
+
+header a:hover 
+{
+	color:#fbff11;
+} 
+
+header .highlight 
+{
+	color:#ed0f0f;
+} 
+
+/*search bar area css items */ 
+
+#searchBar 
+{
+	padding: 15px; 
+	color:#ffffff; 
+	background:#35424a;
+}
+ 
+ #searchBar h1 
+ {
+	 float: right;
+ } 
+ 
+/* table css elements */  
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%; 
+	align: absolute; 
+	margin: 0px auto; 
+	margin-top: 15px;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px; 
+	color: white;
+} 
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white; 
+}
+
+
+
+tr:hover {background-color: #ddd;} 
+
